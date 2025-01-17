@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color:blue;
+    height:70px;
+}
+.navbar img{
+    height:70px;
+    width:80px;
+    margin-left:5%;
+    margin-bottom:1%;
+    
+}
+/* nav {
+  
+    color: color;
+    padding: 10px;
+} */
+
+nav ul {
+    margin-left: 65%;
+    display:flex;
+}
+
+ul li {
+    font-size: 25px;
+    list-style: none;
+    padding: 24px;
+    display: inline;
+    font-weight: bolder;
+    cursor: pointer;
+    color:white;
+}
