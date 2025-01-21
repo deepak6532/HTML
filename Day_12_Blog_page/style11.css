@@ -1,0 +1,91 @@
+.six_container {
+    height: 850px;
+    border: 2px solid black;
+    background-image: linear-gradient(#050a23bf, #050a23bf), url("https://mcps.vercel.app/static/media/blog-section-img.05f4eecbe2f5a8e55766.jpg");
+    background-size: cover;
+    /* display:flex;
+    justify-content: space-around; */
+
+}
+
+.six_container h1{
+    color: rgb(234, 232, 232);
+    font-family: montserrat, sans-serif;
+    /* text-align: center; */
+    margin-top:4%;
+    margin-left:40%;
+    font-weight: 100;
+}
+
+.blogs {
+    height: 570px;
+    width: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+
+.blog1 {
+    height: 500px;
+    width: 30%;
+    border: 0.5px solid white;
+    margin-top: 2%;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+.blog1:hover {
+    /* background-color: white;
+    color: black;
+    border-radius: 10px; */
+    transition: 0.4s;
+    transform: scale(104%);
+}
+
+.blog1 img {
+    height: 270px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog1 h3 {
+    color: rgb(29, 29, 29);
+    margin-left: 7%;
+    margin-top: 5%;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: montserrate, sans-serif;
+
+}
+
+.blog1 p {
+    margin-top: 5%;
+    /* text-align:center; */
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    color: rgb(30, 29, 29)
+}
+
+.six_container button {
+    margin-left: 45%;
+    margin-top: 3%;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #DC3545;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: montserrat, sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.six_container button:hover{
+    background-color: #ab202e;
+    color: white;
+}
