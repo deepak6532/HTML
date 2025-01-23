@@ -1,0 +1,35 @@
+.box{
+    height:150px;
+    width:150px;
+
+    margin:5px;
+    border:2px solid black;
+   
+}
+#box1{
+    background-color:rgb(43, 43, 220);
+    /* position:relative; */
+   
+}
+#box2{
+    background-color:rgb(43, 220, 43);
+    /* position:absolute;
+    top:20px;
+    left:20px; */
+
+    position:sticky;
+    top:40px;
+  
+}
+#box3{
+    background-color:rgb(220, 43, 43);
+    height:150px;
+    /* position: fixed;
+    lefT:120px; */
+    /* position:sticky;
+    top:40px; */
+}
+#box4{
+    background-color:rgb(43, 146, 220);
+    height:190px;
+}
