@@ -1,0 +1,134 @@
+h1{
+    color:black;
+}
+
+/* Media wuery */
+
+/* min width  "500px" ->It means jo bhi css app apply kroge minmum -500px se start hoga aur max infinte hoga*/
+
+@media screen and (min-width:500px){
+    
+    h1{
+        color:black;
+    }
+
+}
+
+/* max width  "500" -> it means jo bhi css aap apply kroge maximum 500px tk hoga */
+
+
+/* @media screen and (max-width:500px){
+    
+    h1{
+        color:red;
+        font-size:50px;
+    }
+
+} */
+
+/* max */
+
+/* @media screen and(max-width:900px){
+    body{
+        background-color:blue;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+   
+    body{
+        background-color:red;
+    }
+    
+}
+@media screen and (max-width:200px){
+    body{
+        background-color:green;
+    }
+
+} */
+
+/* using min */
+/* 
+@media screen and (min-width:0px){
+h1{
+    background-color:green;
+}
+    
+}
+
+@media screen and (min-width:200px){
+    h1{
+        background-color:red;
+    }
+ }
+   
+ @media screen and (min-width:500px){
+    h1{
+        background-color:red;
+    }
+ }
+ */
+
+
+
+
+ /* @media screen and (min-width:500px){
+
+    h1{
+        background-color: green;
+    }
+ }
+
+ @media screen and (min-width:800px)
+ {
+    h1{
+        background-color: white;;
+    }
+ } */
+
+
+
+
+
+ /* @media screen and (min-width:500px) and (max-width:800px){
+
+    h1{
+        background-color: green;
+        font-size:80px;
+    }
+ } */
+
+
+
+ /* @media screen and (min-width:800px){
+
+    h1{
+        color: blue;
+    }
+ }
+
+ @media screen and (min-width:500px)
+ {
+    h1{
+        color: red;
+    }
+} */
+
+
+
+@media screen and (max-width:800px){
+
+    h1{
+        color: blue;
+    }
+ }
+
+ @media screen and (max-width:500px)
+ {
+    h1{
+        color: red;
+    }
+}
+
